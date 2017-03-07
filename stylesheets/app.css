@@ -1,0 +1,192 @@
+/* line 30, ../scss/app.scss */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* line 36, ../scss/app.scss */
+html {
+  font: 2rem/normal Arial, sans-serif;
+  letter-spacing: normal;
+  line-height: 1;
+}
+
+/* line 41, ../scss/app.scss */
+body {
+  margin: 0;
+  padding: 1rem;
+}
+
+/* line 45, ../scss/app.scss */
+html,
+body,
+.application,
+.flex-item-1,
+.flex-item-2,
+.flex-item-3,
+.application > div:first-child div,
+.application > div:nth-child(2) > div > div:nth-child(2) span[id] {
+  height: 100%;
+}
+
+/* line 55, ../scss/app.scss */
+.application {
+  box-shadow: 0 2px 1px 0 #d1d1d1, 0 0 1px 0 #d1d1d1;
+  min-height: 400px;
+  min-width: 350px;
+  padding: 1.5rem .75rem;
+}
+/* line 60, ../scss/app.scss */
+.application > div:first-child {
+  height: 10%;
+}
+/* line 63, ../scss/app.scss */
+.application > div:nth-child(2) > div > div:nth-child(2),
+.application > div:nth-child(2) > div:nth-child(2) span[id]:not(:last-of-type) {
+  height: 20%;
+}
+/* line 67, ../scss/app.scss */
+.application > div:nth-child(2) > div > div:first-child span[id] {
+  height: 25%;
+}
+/* line 70, ../scss/app.scss */
+.application > div:nth-child(2) > div:nth-child(2) span[id]:last-child {
+  height: 40%;
+}
+/* line 73, ../scss/app.scss */
+.application > div:nth-child(2) > div > div:first-child {
+  height: 80%;
+}
+/* line 76, ../scss/app.scss */
+.application > div:nth-child(2) {
+  height: 90%;
+  margin: .2rem 0 0;
+}
+/* line 80, ../scss/app.scss */
+.application > div:nth-child(2) > div > div:first-child > div:first-child span:first-child {
+  color: #0080ff;
+  font-weight: bolder;
+}
+/* line 84, ../scss/app.scss */
+.application > div:nth-child(2) > div > div:first-child > div:first-child span:first-child,
+.application > div:nth-child(2) > div > div:first-child > div:nth-child(2) span:first-child,
+.application > div:nth-child(2) > div > div:first-child > div:nth-child(3) span:first-child,
+.application > div:nth-child(2) > div:last-of-type > span {
+  background-color: #f1f1f1;
+  background: -moz-linear-gradient(top, #f9f9f9 0%, #f1f1f1 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, #f9f9f9), color-stop(100%, #f1f1f1));
+  background: -webkit-linear-gradient(top, #f9f9f9 0%, #f1f1f1 100%);
+  background: -o-linear-gradient(top, #f9f9f9 0%, #f1f1f1 100%);
+  background: -ms-linear-gradient(top, #f9f9f9 0%, #f1f1f1 100%);
+  background: linear-gradient(to bottom, #f9f9f9 0%, #f1f1f1 100%);
+}
+/* line 96, ../scss/app.scss */
+.application > div:nth-child(2) > div:last-of-type > span:last-of-type {
+  background-color: #00ff80;
+  background: -moz-linear-gradient(top, #00ff80 0%, #00e673 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, #00ff80), color-stop(100%, #00e673));
+  background: -webkit-linear-gradient(top, #00ff80 0%, #00e673 100%);
+  background: -o-linear-gradient(top, #00ff80 0%, #00e673 100%);
+  background: -ms-linear-gradient(top, #00ff80 0%, #00e673 100%);
+  background: linear-gradient(to bottom, #00ff80 0%, #00e673 100%);
+  box-shadow: inset -1px -1px 0 0 #00cc66, inset 1px 1px 0 0 #00cc66;
+}
+/* line 106, ../scss/app.scss */
+.application > div:nth-child(2) > div:last-of-type > span:last-of-type:hover {
+  box-shadow: inset -1px -1px 0 0 #00cc66, inset 1px 1px 0 0 #00cc66, inset 0 -3px 0 0 #00cc66;
+}
+
+/* line 110, ../scss/app.scss */
+.row {
+  overflow: hidden;
+}
+
+/* line 113, ../scss/app.scss */
+body,
+.row,
+span[id] {
+  width: 100%;
+}
+
+/* line 118, ../scss/app.scss */
+#numbers,
+span[id] {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+/* line 123, ../scss/app.scss */
+#numbers {
+  border: 1px solid #d1d1d1;
+  height: 100%;
+  justify-content: flex-end;
+  margin: 0 .2rem;
+  padding: 0 .5rem 0 0;
+  width: 100%;
+}
+/* line 130, ../scss/app.scss */
+#numbers div {
+  display: inline-block;
+  height: auto;
+  width: auto;
+}
+
+/* line 136, ../scss/app.scss */
+span[id] {
+  background-color: #fff;
+  border: 0.2rem solid #fff;
+  box-shadow: inset -1px -1px 0 0 #d1d1d1, inset 1px 1px 0 0 #d1d1d1;
+  justify-content: center;
+}
+
+/* line 142, ../scss/app.scss */
+span[id]:hover {
+  box-shadow: inset -1px -1px 0 0 #d1d1d1, inset 1px 1px 0 0 #d1d1d1, inset 0 -3px 0 0 #e1e1e1;
+}
+
+/* line 145, ../scss/app.scss */
+.flex-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+/* line 150, ../scss/app.scss */
+.flex-item-1 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+/* line 153, ../scss/app.scss */
+.flex-item-2 {
+  -webkit-box-flex: 2;
+  -webkit-flex: 2;
+  -ms-flex: 2;
+  flex: 2;
+}
+
+/* line 156, ../scss/app.scss */
+.flex-item-3 {
+  -webkit-box-flex: 3;
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+}
