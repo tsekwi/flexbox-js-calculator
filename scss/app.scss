@@ -1,5 +1,5 @@
 $white: #fff;
-$border-box: #d1d1d1;
+$border-box: #c5c5c5;
 $gradient-1: #f9f9f9;
 $gradient-2: #f1f1f1;
 $gradient-3: #00ff80;
@@ -39,6 +39,7 @@ html {
   line-height: 1;
 }
 body {
+  background-color: #414141;
   margin: 0;
   padding: 1rem;
 }
@@ -53,7 +54,8 @@ body,
   height: 100%;
 }
 .application {
-  box-shadow: 0 2px 1px 0 $border-box, 0 0 1px 0 $border-box;
+  background-color: $white;
+  box-shadow: 3px 3px 1px 0 #222, 0 0 1px 0 #222;
   min-height: 400px;
   min-width: 350px;
   padding: 1.5rem .75rem;
